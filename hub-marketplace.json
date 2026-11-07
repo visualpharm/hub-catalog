@@ -1,0 +1,57 @@
+{
+  "name": "hubbahub",
+  "description": "Плагины HubbaHub: Inbox (Teams, WhatsApp, почта), разбор входящих, колокол «Ждут тебя».",
+  "owner": {
+    "name": "visualpharm",
+    "url": "https://github.com/visualpharm"
+  },
+  "plugins": [
+    {
+      "name": "teams",
+      "type": "plugin",
+      "source": {
+        "github": "visualpharm/hub-plugin-teams",
+        "sha": "e044b4466d00c0f463c1329b9b050348aa6bcc1e"
+      },
+      "description": "Вкладка Inbox: входящие, которые ждут ответа, в одном списке — Microsoft Teams, WhatsApp, почта.",
+      "category": "work",
+      "tags": [
+        "inbox",
+        "teams",
+        "whatsapp",
+        "email"
+      ],
+      "icon": "icons/teams.svg"
+    },
+    {
+      "name": "proactivity",
+      "type": "plugin",
+      "source": {
+        "github": "visualpharm/hub-proactivity",
+        "sha": "6be19cf4b36845f77da33d42e89a79215e5f1a4a"
+      },
+      "description": "Сам разбирает входящие Inbox: внутреннее поручает сессиям, на рутину отвечает, остальное — одним сообщением на дело и пунктом в To-do.",
+      "category": "work",
+      "tags": [
+        "inbox",
+        "triage"
+      ],
+      "icon": "icons/proactivity.svg"
+    },
+    {
+      "name": "waits",
+      "type": "plugin",
+      "source": {
+        "github": "visualpharm/hub-waits",
+        "sha": "1bf6fadac73bff4dd235cbdd5b498f0befae5e97"
+      },
+      "description": "«Ждут тебя» колоколом в клиентах HubbaHub (iPhone, Mac): число непросмотренного и история.",
+      "category": "notify",
+      "tags": [
+        "notifications",
+        "clients"
+      ],
+      "icon": "icons/waits.svg"
+    }
+  ]
+}
