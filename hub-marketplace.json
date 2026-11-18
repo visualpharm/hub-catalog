@@ -11,7 +11,7 @@
       "type": "plugin",
       "source": {
         "github": "visualpharm/hub-plugin-teams",
-        "sha": "e044b4466d00c0f463c1329b9b050348aa6bcc1e"
+        "sha": "5fb0d02a86ec27653fef5cd923279cfabbcf1b71"
       },
       "description": "Вкладка Inbox: входящие, которые ждут ответа, в одном списке — Microsoft Teams, WhatsApp, почта.",
       "category": "work",
